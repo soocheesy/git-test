@@ -1,0 +1,9 @@
+mondico = dict({})
+
+cles = ['prenom', 'ville', 'age']
+valeurs = ["Jean", "Dupont", 35]
+
+for i in range(3):
+    mondico[cles[i]] = valeurs[i]
+    
+print(mondico)
